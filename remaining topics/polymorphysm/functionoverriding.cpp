@@ -4,7 +4,7 @@ using namespace std;
 // class shape{
 //     public:
 //     virtual void  draw(){
-//         cout << "i am a shape" << endl;
+//         cout << "i am a shape" << endl; 
 //     }
 // };
 
@@ -16,19 +16,15 @@ using namespace std;
 // };
 
 // int main() {
-//     // square *pp = new square();
-//     // pp->draw();
 
 //     shape* s1 = new shape(); 
 //     shape* s2 = new square(); 
-
-    
+//     square* s3 = new square();
 //     s1->draw();  // Will output: I am a shape
 //     s2->draw();  // Will output: I am a square
-    
+//     s3->draw();
 //     delete s1;
 //     delete s2;
-
 //     return 0;
 // }
 
@@ -118,6 +114,9 @@ using namespace std;
 // class Derived : public AbstractBase {
 // public:
 //     // Uses the default implementation from AbstractBase
+//     void pureVirtualFunc(){
+//         cout << " ho gya lol ai ka " << endl;
+//     }
 
 // };
 

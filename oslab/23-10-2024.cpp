@@ -74,7 +74,7 @@ int main() {
                     cout << ava[j] << " ";
                 }
                 cout << endl;
-                break;b
+                break;
             }
         }
     }
